@@ -1,0 +1,11 @@
+note:
+Compute:
+Lambda - only worry about code (note to audio)
+Lightsail (VPS service) - for those who dont want to know anything about AWS (VPC, Security Group etc. RDP/SSH)
+Batch - Batch computing for cloud
+
+Storage:
+S3 - Object based storage (buckets, etc)
+EFS (Elastic File System) - Network Attached Storage (NAS), mount to any VM
+Glacier (Data Archival)
+Snowball
