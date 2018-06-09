@@ -9,3 +9,49 @@ S3 - Object based storage (buckets, etc)
 EFS (Elastic File System) - Network Attached Storage (NAS), mount to any VM
 Glacier (Data Archival)
 Snowball
+Storage Gateway - virtual appliances, VM installed in DC, replicate data to S3 (4 types)
+
+Databases:
+RDS - Mysql, Postgresql, Aurora, Oracle
+DynamoDB - Non-Relational DB
+ElastiCache
+RedShift - Data warehousing
+
+Migration:
+AWS Migration Hub - Tracking service
+Application Discovery Service - Detect dependencies etc
+DB Migration Service - migrate db onto AWS
+Server Migration Service - migrate VM/physical Service
+Snowball - Migration Large data into cloud (TBs)
+
+Networking & Content Delivery
+VPC (VERY IMPORTANT, FUNDAMENTAL)
+CloudFront (cdn)
+Route53 - DNS Service (IPv4, IPv6)
+API Gateway - create own API
+Direct Connect - running dedicated line directly into Amazon (VPC)
+
+Developer Tools
+CodeStar - Project Management w/ code
+CodeCommit - store private Git
+CodeBuild - compile/run test
+CodeDeploy - deployment Service
+CodePipeline - CI/CD
+X-Ray - debug serverless apps
+Cloud9 - IDE
+
+Management Tools
+CloudWatch - monitoring
+CloudFormation - solution architect real life, scripting infrastructure, deploy using script
+CloudTrail - AWS environment logging (turned on by default - 1 week)
+Config
+OpsWork - similar to beanstalk, chef/puppets environment
+Service Catalog - fortune 500 (manage catalog of IT services)
+Systems Manager - Interface to Manage (EC2, patch maintenance)
+TrustedAdvisor - Security Associate, Cloud Practitioner
+Managed Services
+
+Media services
+Elastic Transcoder - Resize video on iphone/android etc
+...
+...
